@@ -3,23 +3,47 @@
 ```json
 {
     "workoutId": 1,
-    "preTempsK" : [ 1, 2, 3, 4 ],
-    "postTempsK": [ 1, 2, 3, 4 ],
-    "timeSpentSeconds": 35,
-    "points": [
-        {
-            "name": "leftCalf",
-            "x": 1,
-            "y": 2,
-            "r": 1
-        },
-        {
-            "name": "rightCalf",
-            "x": 5,
-            "y": 3,
-            "r": 1,
-        }
-    ]
+    "pre": {
+        "imageURL": "https://domain.com/theImage.jpg",
+        "tempsK" : [ 1, 2, 3, 4 ],
+        "width": 25,
+        "height": 25,
+        "points": [
+            {
+                "name": "leftCalf",
+                "x": 1,
+                "y": 2,
+                "r": 1
+            },
+            {
+                "name": "rightCalf",
+                "x": 5,
+                "y": 3,
+                "r": 1
+            }
+        ]
+    },
+    "post": {
+        "imageURL": "https://domain.com/theImage.jpg",
+        "tempsK" : [ 1, 2, 3, 4 ],
+        "width": 25,
+        "height": 25,
+        "points": [
+            {
+                "name": "leftCalf",
+                "x": 1,
+                "y": 2,
+                "r": 1
+            },
+            {
+                "name": "rightCalf",
+                "x": 5,
+                "y": 3,
+                "r": 1
+            }
+        ]
+    },
+    "timeSpentSeconds": 35
 }
 ```
 
@@ -82,6 +106,6 @@
             "meanTempK": 270,
             "IQRK": 25,
         }
-    ],
+    ]
 }
 ```
