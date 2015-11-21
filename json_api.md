@@ -106,6 +106,28 @@
             "meanTempK": 270,
             "IQRK": 25,
         }
-    ]
+    ],
+    "deltaPoints": [
+        {
+            "name": "leftCalf",
+            "maxTempK": 0,
+            "q1TempK": 5,
+            "q3TempK": -5,
+            "minTempK": 8,
+            "medianTempK": 3,
+            "meanTempK": 4,
+            "IQRK": 3,
+        },
+        {
+            "name": "rightCalf",
+            "maxTempK": 0,
+            "q1TempK": 5,
+            "q3TempK": -5,
+            "minTempK": 8,
+            "medianTempK": 3,
+            "meanTempK": 4,
+            "IQRK": 3,
+        }
+    ],
 }
 ```
